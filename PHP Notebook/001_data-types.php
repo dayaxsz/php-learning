@@ -52,12 +52,12 @@ $a = 1;
 $b = 2;
 
 
-var_dump($a == $b).PHP_EOL;
-var_dump($a != $b).PHP_EOL;
-var_dump($a > $b).PHP_EOL;
-var_dump($a < $b).PHP_EOL;
-var_dump($a >= $b).PHP_EOL;
-var_dump($a <= $b).PHP_EOL;
+var_dump($a == $b).PHP_EOL; //values are equal
+var_dump($a != $b).PHP_EOL; // values are not equal
+var_dump($a > $b).PHP_EOL; // $a is greater than $b
+var_dump($a < $b).PHP_EOL; // $a is smaller than $b
+var_dump($a >= $b).PHP_EOL; // $a is equal or greater to $b
+var_dump($a <= $b).PHP_EOL; // $a is equal or less than $b
 
 
 // Logic Operators
